@@ -24,7 +24,7 @@
     bottom: 0;
     width: 100%;
     right: 1px;
-    padding-bottom: 240px;
+    padding-bottom: 235px;
 }
 .grama-animation{
     animation: grama-animation 1.8s infinite linear;
@@ -46,6 +46,19 @@
     position: absolute;
     width: 550px;
     animation: clouds-animation 20s infinite linear;
+}
+.clouds2{
+    position: absolute;
+    width: 300px;
+    animation: clouds-animation 25s infinite linear;
+
+}
+@font-face{
+    font-family:'04b_30__';
+    src: url('/AQUI/fonte/04B_30__.TTF') format('truetype');
+}
+#text-element{
+    font-family:'04b_30__', Arial,sans-serif;
 }
 /*Animação*/
 @keyframes grama-animation {
@@ -97,10 +110,19 @@
     }
 
 }
+@keyframes clouds2-animation{
+    from{
+        right: -750px;
+    }
+    to {
+        right: 100%;
+    }
+
+}
 
 p {
-
+    font-family: '04b_30__';
     padding: 90px;
     text-align: center;
-    color: black;
+    color: gold;
 }
