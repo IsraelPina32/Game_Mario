@@ -7,6 +7,7 @@
 .game-bord{
     width: 100%;
     height: 500px;
+    border-top: 800px;
     margin: 0 auto;
     position: relative;
     overflow: hidden;
@@ -23,12 +24,10 @@
     position: absolute;
     bottom: 0;
     width: 100%;
-    right: 1px;
-    padding-bottom: 235px;
+    right: 2px;
+    padding-bottom: 415px;
 }
-.grama-animation{
-    animation: grama-animation 1.8s infinite linear;
-}
+
 
 /* Personagem*/
 .mario{
@@ -61,15 +60,6 @@
     font-family:'04b_30__', Arial,sans-serif;
 }
 /*Animação*/
-@keyframes grama-animation {
-    from{
-        right: -80px;
-    }
-    to{
-        right: 100%;
-    }
-    
-}
 
 @keyframes pipe-animation{
     from {
