@@ -20,7 +20,7 @@ body{
     height: 250px;
     width: 600px;
     margin: auto;
-    animation: btn2 20s infinite ;
+    animation: btn2 25s infinite ;
 
 }
 .btn{
@@ -28,7 +28,7 @@ body{
     color: white;
     border-radius: 12px;
     padding: 10px;
-    box-shadow: 0px 0px 0px 2px darkorange;
+    box-shadow: 2px 2px 10px 1.5px  darkorange;
 }
 
 .btn:hover{
@@ -36,7 +36,7 @@ body{
     transition: 1s;
     color: rgb(23, 104, 253);
     background-color: rgb(128, 206, 10);
-    box-shadow: 0px 0px 0px 2px skyblue;
+    box-shadow: 2px 2px 10px 1.5px skyblue;
 }
 .btn{
     transform: translateY(90px);

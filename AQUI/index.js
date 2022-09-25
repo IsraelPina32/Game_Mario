@@ -1,3 +1,6 @@
+function back() {
+  location.href = "http://127.0.0.1:5501/AQUI/login.html"
+}
 const mario = document.querySelector('.mario');
 const pipe = document.querySelector('.pipe');
 audioGameOver = new Audio('./musica/audio_gameover.mp3')
@@ -42,3 +45,6 @@ function stopAudio(){
 }setTimeout(stopAudio, 8000)
 
 document.addEventListener('keydown', jump);
+
+
+

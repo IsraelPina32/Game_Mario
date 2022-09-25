@@ -59,6 +59,33 @@
 #text-element{
     font-family:'04b_30__', Arial,sans-serif;
 }
+
+.btn2{
+    background-color: rgb(128, 206, 10);
+    color: rgb(23, 104, 253);
+    border-radius: 12px;
+    padding: 8px;
+    box-shadow: 2px 2px 10px 1px   rgb(38, 177, 232);
+}
+.Menu{
+    text-align: center;
+}
+.btn2:hover{
+    cursor: pointer;
+    transition: 1s;
+    color:  white;
+    background-color:  darkred;
+    box-shadow: 2px 2px 10px 1.5px  darkorange;;
+}
+.btn2{
+    transform: translateY(90px);
+}
+
+p {
+    font-family: '04b_30__';
+    padding: 90px;
+    color: gold;
+}
 /*Animação*/
 
 @keyframes pipe-animation{
@@ -110,9 +137,3 @@
 
 }
 
-p {
-    font-family: '04b_30__';
-    padding: 90px;
-    text-align: center;
-    color: gold;
-}
