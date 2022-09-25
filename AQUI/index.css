@@ -54,7 +54,7 @@
 }
 @font-face{
     font-family:'04b_30__';
-    src: url('/AQUI/fonte/04B_30__.TTF') format('truetype');
+    src: url('fonte/04B_30__.TTF') format('truetype');
 }
 #text-element{
     font-family:'04b_30__', Arial,sans-serif;
